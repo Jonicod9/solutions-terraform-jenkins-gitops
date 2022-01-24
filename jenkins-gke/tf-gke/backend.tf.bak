@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "fleet-aleph-333817-tfstate"
     prefix = "jenkins"
   }
 }
